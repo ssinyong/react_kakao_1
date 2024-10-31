@@ -2,7 +2,7 @@ import {useSearchParams} from "react-router-dom";
 import {useEffect} from "react";
 import {getAccessToken, getMemberWithAccessToken} from "../../api/kakaoAPI.ts";
 
-
+//손대기
 function KakaoRedirectPage() {
 
     const [searchParams] = useSearchParams()
